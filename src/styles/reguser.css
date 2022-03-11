@@ -1,0 +1,20 @@
+.form-reguser .card {
+    min-width: 450px;
+}
+.form-reguser .card form {
+    margin-top: 2rem;
+}
+.form-reguser .card .field {
+    margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+    .form-reguser .card {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px) {
+    .form-reguser .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
